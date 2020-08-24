@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <TabPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" side="LEFT" style="-fx-background-color: #83CEE8;" tabClosingPolicy="UNAVAILABLE" tabMaxHeight="1.2976931348623157E308" tabMaxWidth="1.5976931348623158E308">
+     <tabs>
+       <Tab closable="false" text="Accueil">
+         <content>
+           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #83CEE8;">
+                  <children>
+                      <Label layoutX="177.0" layoutY="45.0" prefHeight="84.0" prefWidth="267.0" text="Kingdom's Party" textAlignment="CENTER">
+                          <font>
+                              <Font name="JetBrains Mono Bold" size="29.0" />
+                          </font>
+                      </Label>
+                      <TextField layoutX="171.0" layoutY="155.0" prefHeight="29.0" prefWidth="258.0" promptText="Nom d'utilisateur" />
+                      <PasswordField layoutX="171.0" layoutY="200.0" prefHeight="29.0" prefWidth="258.0" promptText="Mot de Passe" />
+                      <Label layoutX="167.0" layoutY="336.0" prefHeight="17.0" prefWidth="267.0" text="               Ouverture le 18/07/2021" textAlignment="CENTER">
+                          <font>
+                              <Font name="Droid Serif" size="13.0" />
+                          </font>
+                     </Label>
+                      <Button defaultButton="true" layoutX="171.0" layoutY="247.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="258.0" style="-fx-background-color: #1BBCE3;" text="Connexion" textFill="#f7f7f7e6">
+                          <font>
+                              <Font name="AppleGothic Regular" size="23.0" />
+                          </font>
+                      </Button>
+                  </children>
+               </AnchorPane>
+         </content>
+       </Tab>
+       <Tab closable="false" text="News">
+         <content>
+           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                  <children>
+                     <Label layoutX="94.0" layoutY="133.0" prefHeight="150.0" prefWidth="427.0" text="En maintenance" textFill="WHITE">
+                        <font>
+                           <Font name="DIN Alternate Bold" size="57.0" />
+                        </font>
+                     </Label>
+                  </children></AnchorPane>
+         </content>
+       </Tab>
+     </tabs>
+   </TabPane>
+</AnchorPane>
