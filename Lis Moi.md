@@ -19,5 +19,5 @@ Ainsi que les dev de Plix-Host
 ## License
 OpenSource Project 
 
-Alternative API est Open Source : merci à TrxyyDEV
+Alternative API est Open Source : merci à @TrxyyDEV
 
